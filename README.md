@@ -70,8 +70,6 @@ Heart Disease Prediction is a Python-based machine learning project aimed at pre
 - `numpy`: For numerical computations.
 - `pandas`: For data manipulation and analysis.
 - `scikit-learn`: For machine learning algorithms and evaluation metrics.
-- `matplotlib`: For data visualization.
-- `seaborn`: For data visualization.
 
 ## License
 
