@@ -63,18 +63,18 @@ else:
 
 
 
-Y_test_probabilities = model.predict_proba(X_test)[:, 1]
-fpr, tpr, _ = roc_curve(Y_test, Y_test_probabilities)
-roc_auc = auc(fpr, tpr)
+# Y_test_probabilities = model.predict_proba(X_test)[:, 1]
+# fpr, tpr, _ = roc_curve(Y_test, Y_test_probabilities)
+# roc_auc = auc(fpr, tpr)
 
-plt.figure()
-plt.plot(fpr, tpr, color='darkorange', lw=2, label='ROC curve (area = %0.2f)' % roc_auc)
-plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
-plt.xlabel('False Positive Rate')
-plt.ylabel('True Positive Rate')
-plt.title('Receiver Operating Characteristic (ROC) Curve')
-plt.legend(loc="lower right")
-plt.show()
+# plt.figure()
+# plt.plot(fpr, tpr, color='darkorange', lw=2, label='ROC curve (area = %0.2f)' % roc_auc)
+# plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+# plt.xlabel('False Positive Rate')
+# plt.ylabel('True Positive Rate')
+# plt.title('Receiver Operating Characteristic (ROC) Curve')
+# plt.legend(loc="lower right")
+# plt.show()
 
 
 
